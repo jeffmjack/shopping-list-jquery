@@ -1,0 +1,76 @@
+
+* {
+ outline: 1px solid red;
+}
+#bg-container{
+    position: relative;
+
+}
+#bg-container img{
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    position: absolute;
+}
+
+header,
+div {
+    min-width: 20px;
+    text-align: center;
+}
+header {
+    padding-top: 50px;
+    z-index: 1;
+    height: 180px;
+    position: relative;
+    opacity: 0.6;
+    background-color: white;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 3em;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 40%;
+}
+h2 {
+    font-family: sans-serif;
+    background-color: white;
+    font-size: 2em;
+    position: absolute;
+    top: 180px;
+    left: 185px;
+}
+#main {
+    position: relative;
+    padding-top: 100px;
+}
+fieldset {
+    background-color: transparent;
+    z-index: 3;
+    position: absolute;
+    top: 33%;
+    left: 16%;
+    }
+fieldset input {
+    width: 500px;
+    line-height: 3em;
+    border-radius: 5px;
+
+}
+#task-box {
+    width: 40%;
+    margin: 150px auto;
+    z-index: 2;
+    position: relative;
+    background-color: transparent;
+
+}
+.task{
+    width: 90%;
+    margin: 10px auto 0 auto;
+    background-color: red;
+    background-image: url('green-check-mark.png');
+}
