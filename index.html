@@ -10,21 +10,36 @@
 </head>
 
 <body>
-<div id='bg-container'>
-    <img alt='' src='drill-sergeant.jpg'>
-</div>
-<header>
-    <h1> To-Do List </h1>
-    <h2> Release your gaze from the abyss, and focus on this bullshit instead </h2>
-</header>    
-<div id='main'>
-    <fieldset>
-        <input type='text'>
-    </fieldset>
-    <div id='task-box'>
-        <div class='task'> hayy this is a task </div>
-        <div class='task'> hayy this is a another task </div>
-        <div class='task'> hayy this is a another task </div>
+<div id='wrapper'>
+    <div id='bg-container'>
+        <img alt='' src='drill-sergeant.jpg'>
+    </div>
+    <header>
+        <h1> To-Do List </h1>
+        <h2> Release your gaze from the abyss, and focus on this bullshit instead </h2>
+    </header>    
+    <div id='main'>
+        <fieldset>
+            <input type='text'>
+        </fieldset>
+        <div id='task-box'>
+            <div class='task todo'> 
+                <button type='button'>
+                   <img alt= '' src='green-check-mark.png'>
+                </button>
+                hayy this is an undone task
+            </div>
+            <div class='task done'>
+                <button type='button'>
+                   <img alt= '' src='red-check-mark.png'>
+                </button>
+                hayy this is a a completed task
+            </div>
+            <div class='task deleted'> 
+                <button type='button'>img goes here</button>
+                hayy this is a deleted task
+            </div>
+        </div>
     </div>
 </div>
 </body>
