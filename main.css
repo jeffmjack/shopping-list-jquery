@@ -73,6 +73,11 @@ fieldset input {
     font-size: 2em;
     direction: rtl;
 }
+
+fieldset input[type=submit] {
+    width: 150px;
+    margin-left: 275px;
+}
 #task-box {
     width: 40%;
     margin: 150px auto;
@@ -103,19 +108,24 @@ fieldset input {
                 box-shadow: none;
     box-shadow: none;
 }
+.todo img {
+    content:url('green-check-mark.png');
+}
+
 .todo button {
     background-size: 100%;
-    /*background-image: url('green-check-mark.png');
-    */
 }
 
 .done {
     text-decoration: line-through; 
     text-color: gray;
 }
+.done img {
+    content:url('red-check-mark.png');
+}
 
 .deleted {
-    display: hidden;
+    display: none;
     text-decoration: line-through; 
     text-color: gray;
 }
