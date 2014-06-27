@@ -5,8 +5,9 @@
     <title></title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/Users/jeffmjack/code/thinkful/shopping-list-jquery/app.js"></script>
 </head>
 
 <body>
@@ -19,10 +20,12 @@
         <h2> Release your gaze from the abyss, and focus on this bullshit instead </h2>
     </header>    
     <div id='main'>
-        <fieldset>
-            <input type='text'>
-            <input type='submit'>
-        </fieldset>
+        <form id='inputForm'>
+            <fieldset>
+                <input type='text' id='add-items'>
+                <input type='submit'>
+            </fieldset>
+        </form>
         <div id='task-box'>
             <div class='task todo'> 
                 <button type='button'>
